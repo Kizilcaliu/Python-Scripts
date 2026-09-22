@@ -5,7 +5,7 @@ import tkinter as tk
 from tkinter import simpledialog, messagebox, filedialog
 
 # Zabbix API URL and headers
-url = "https://moon.kings.cam.ac.uk/zabbix/api_jsonrpc.php"
+url = "https://<your-zabbix-domain>/zabbix/api_jsonrpc.php"
 headers = {'Content-Type': 'application/json'}
 auth_token = None
 
